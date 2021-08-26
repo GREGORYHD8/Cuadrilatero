@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Img/mate.ico">
+    <link rel="stylesheet" href="3 ejercicios.css">
+    <title>Triplicadora</title>
+</head>
+<body>
+	<div class="contenedor">
+    	<div class="interes-simple">
+        	<h1 
+        		class="tema1">Calcular Area de un cuadrilatero
+        	</h1>
+        		<form autocomplete="off" id="interes-simple">
+            		<h6>
+                		<label class="inicial">Altura:</label>
+                		<input name="montoPrestamo" id="altura" placeholder="Altura" required="">
+           			</h6>
+           				
+           			<h6 class="inicial2">
+                		<label for="base">Base:</label>
+               			<input type="number"name="tasaAnual" id="base" placeholder="base">
+           			</h6>          		
+            		
+            		<div class="calculo">
+                        <button  id="resultado-simp" onclick="intereresSimple();"> Calcular Area de cuadrilatero </button>
+                    </div>
+
+            		<div class="limpiar">
+            			<button onclick="limpiar();">Limpiar Campos</button>
+            		</div>
+     	 		</form>
+    	</div>
+ 			
+ 			
+    </div>		
+    
+    <script type="text/javascript" src="cuadrilatero.js"></script>
+
+</body>
+</html>
